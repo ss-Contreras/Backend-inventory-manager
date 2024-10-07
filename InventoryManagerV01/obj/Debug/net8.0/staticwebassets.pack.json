@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\MisArchivos\\Programacion\\Lenguajes\\DotNet\\InventoryManagerV01\\InventoryManagerV01\\wwwroot\\ImagenesProductos\\0027f25f3-0137-4100-8a63-b84c8a49532d.jpeg",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\0027f25f3-0137-4100-8a63-b84c8a49532d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\MisArchivos\\Programacion\\Lenguajes\\DotNet\\InventoryManagerV01\\InventoryManagerV01\\wwwroot\\ImagenesProductos\\02c37803d-abeb-4608-b662-c7d6d9b440fb.png",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\02c37803d-abeb-4608-b662-c7d6d9b440fb.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\MisArchivos\\Programacion\\Lenguajes\\DotNet\\InventoryManagerV01\\InventoryManagerV01\\wwwroot\\ImagenesProductos\\0ed0e2bf9-8d6d-4c5f-b07e-13c208e4b1b2.jpeg",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\0ed0e2bf9-8d6d-4c5f-b07e-13c208e4b1b2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\MisArchivos\\Programacion\\Lenguajes\\DotNet\\InventoryManagerV01\\InventoryManagerV01\\wwwroot\\ImagenesProductos\\56bd8a5fc-8381-41ad-9667-0c1dc1875fcd.jpg",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\56bd8a5fc-8381-41ad-9667-0c1dc1875fcd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\MisArchivos\\Programacion\\Lenguajes\\DotNet\\InventoryManagerV01\\InventoryManagerV01\\wwwroot\\ImagenesProductos\\8bdf772e-6a02-4480-89d1-86d96694af0b.jpg",
+      "PackagePath": "staticwebassets\\ImagenesProductos\\8bdf772e-6a02-4480-89d1-86d96694af0b.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InventoryManagerV01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InventoryManagerV01.props",
+      "PackagePath": "build\\InventoryManagerV01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InventoryManagerV01.props",
+      "PackagePath": "buildMultiTargeting\\InventoryManagerV01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InventoryManagerV01.props",
+      "PackagePath": "buildTransitive\\InventoryManagerV01.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

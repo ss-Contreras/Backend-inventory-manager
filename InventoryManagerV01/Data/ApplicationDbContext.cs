@@ -17,8 +17,12 @@ namespace InventoryManagerV01.Data
         }
 
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Proveedor> Proveedor { get; set; }
-        public DbSet<Producto> Producto { get; set; }
+        public DbSet<Proveedores> Proveedores { get; set; }
+        public DbSet<Productos> Productos { get; set; }
+        public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<Ventas> Ventas { get; set; }
+        public DbSet<Empleados> Empleados { get; set; }
+
         public DbSet<AppUsuario> AppUsuario { get; set; }
 
 

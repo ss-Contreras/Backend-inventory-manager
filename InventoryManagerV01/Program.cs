@@ -32,6 +32,11 @@ var apiVersioningBuilder = builder.Services.AddApiVersioning(opcion =>
 });
 //Agregamos los Repositorios
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
+builder.Services.AddScoped<IProductosRepositorio, ProductosRepositorio>();
+builder.Services.AddScoped<IProveedoresRepositorio, ProveedoresRepositorio>();
+builder.Services.AddScoped<IClientesRepositorio, ClientesRepositorio>();
+builder.Services.AddScoped<IVentasRepositorio, VentasRepositorio>();
+builder.Services.AddScoped<IEmpleadosRepositorio, EmpleadosRepositorio>();
 
 var key = builder.Configuration.GetValue<string>("ApiSettings:Secreta");
 
@@ -57,13 +62,16 @@ builder.Services.AddSwaggerGen();
 //3-cualquier dominio (Tener en cuenta seguridad)
 //Usamos de ejemplo el dominio: http://localhost:3223, se debe cambiar por el correcto
 //Se usa (*) para todos los dominios
-builder.Services.AddCors(p => p.AddPolicy("PoliticaCors", build =>
+builder.Services.AddCors(options =>
 {
-    build.AllowAnyOrigin() // Esto permite cualquier dominio (bueno para desarrollo, no para producción).
-        .AllowAnyMethod()   // Permite todos los métodos HTTP (GET, POST, PUT, DELETE, etc.).
-        .AllowAnyHeader();  // Permite cualquier encabezado.
-}));
-
+    options.AddPolicy("PoliticaCors",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:3000")
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
