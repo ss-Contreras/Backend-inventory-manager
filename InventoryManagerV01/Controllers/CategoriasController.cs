@@ -25,7 +25,7 @@ namespace InventoryManagerV01.Controllers
         [HttpGet]
         //[MapToApiVersion("1.0")]
         //[ResponseCache(Duration = 20)]
-        [ResponseCache(CacheProfileName = "PorDefecto30Segundos")]
+        //[ResponseCache(CacheProfileName = "PorDefecto30Segundos")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         //[EnableCors("PoliticaCors")] // Aplica la política CORS a este método
